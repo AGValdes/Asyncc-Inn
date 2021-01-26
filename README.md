@@ -1,6 +1,6 @@
 # Asyncc-Inn
 Author: Ameilia Valdes, 1/25/2021
-![ERD Image](../ERD-Asyncc-Inn.png)
+![ERD Image](./ERD-Asyncc-Inn.png)
 
 1. The Location table will hold each hotel location. It has collumns for primary key, name, city, state, address, phone number and number of rooms for each location. It has a one to many relationship with the Room table, because one location can have many rooms.
 2. The LocationRoom table is a join table with a payload that is the price of each room. It uses the Location ID and Room ID as foreign keys and has a third collumn that is the price. 
